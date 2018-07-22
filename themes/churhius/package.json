@@ -1,9 +1,0 @@
-{
-  "name": "churhius",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "devDependencies": {
-    "laravel-mix": "^2.1.11"
-  }
-}
