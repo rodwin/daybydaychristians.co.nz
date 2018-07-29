@@ -10,9 +10,38 @@ let mix = require('laravel-mix');
  | file for your application, as well as bundling up your JS files.
  |
  */
+mix.setPublicPath('../../public');
 
-mix.js('src/app.js', 'dist/')
-   .sass('src/app.scss', 'dist/');
+mix.sass('scss/app.scss', '../../public/css');
+mix.copyDirectory('HTML/js', '../../public/js');
+mix.copyDirectory('HTML/plugins/revolution', '../../public/js/revolution');
+mix.copyDirectory('HTML/images', '../../public/images');
+mix.copyDirectory('HTML/font', '../../public/font');
+mix.combine(
+    [
+        'HTML/js/libs/jquery.modernizr.js',
+        'HTML/js/libs/jquery-2.2.4.min.js',
+        'HTML/js/libs/jquery-ui.min.js',
+        'HTML/js/libs/retina.min.js',
+    ], '../../public/js/libs.js'
+);
+mix.combine(
+    [
+        'HTML/plugins/jquery.localScroll.min.js',
+        'HTML/plugins/jquery.scrollTo.min.js',
+        'HTML/plugins/jquery.countdown.min.js',
+        'HTML/plugins/fancybox/jquery.fancybox.js',
+        'HTML/plugins/mad.customselect.js',
+        'HTML/plugins/instafeed.min.js',
+        'HTML/plugins/jquery.queryloader2.min.js',
+        'HTML/plugins/owl.carousel.min.js',
+    ], '../../public/js/extensions.js'
+);
+
+mix.options({
+  processCssUrls: false, // Process/optimize relative stylesheet url()'s. Set to false, if you don't want them touched.
+});
+
 
 // Full API
 // mix.js(src, output);

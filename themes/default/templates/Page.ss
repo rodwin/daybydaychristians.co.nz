@@ -21,19 +21,11 @@
 	<!-- Vendor CSS
 	============================================ -->
 	
-	<link rel="stylesheet" href="font/demo-files/demo.css">
-	<link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.css">
-	<link rel="stylesheet" href="plugins/revolution/css/settings.css">
-	<link rel="stylesheet" href="plugins/revolution/css/layers.css">
-	<link rel="stylesheet" href="plugins/revolution/css/navigation.css">
-
-	<!-- CSS theme files
-	============================================ -->
-	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
-	<link rel="stylesheet" href="css/fontello.css">
-	<link rel="stylesheet" href="css/owl.carousel.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/responsive.css">
+	
+	<link rel="stylesheet" href="js/revolution/css/settings.css">
+	<link rel="stylesheet" href="js/revolution/css/layers.css">
+	<link rel="stylesheet" href="js/revolution/css/navigation.css">
+	<link rel="stylesheet" href="css/app.css">
 
 </head>
 
@@ -1595,31 +1587,11 @@
 	
 		<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
 	
-	<!-- JS Libs & Plugins
-	============================================ -->
-	<script src="js/libs/jquery.modernizr.js"></script>
-	<script src="js/libs/jquery-2.2.4.min.js"></script>
-	<script src="js/libs/jquery-ui.min.js"></script>
-	<script src="js/libs/retina.min.js"></script>
-
-	<script src="plugins/jquery.localScroll.min.js"></script>
-	<script src="plugins/jquery.scrollTo.min.js"></script>
-	<script src="plugins/jquery.countdown.min.js"></script>
-	<script src="plugins/fancybox/jquery.fancybox.js"></script>
-	<script src="plugins/mad.customselect.js"></script>
-	
 	<script src="https://maps.googleapis.com/maps/api/js?libraries=places&amp;key=AIzaSyBN4XjYeIQbUspEkxCV2dhVPSoScBkIoic"></script>
-	<script src="plugins/instafeed.min.js"></script>
-	<script src="plugins/revolution/js/jquery.themepunch.tools.min.js?ver=5.0"></script>
-	<script src="plugins/revolution/js/jquery.themepunch.revolution.min.js?ver=5.0"></script>
-	<script src="plugins/jquery.queryloader2.min.js"></script>
-	<script src="plugins/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-	<script type="text/javascript" src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-	<script type="text/javascript" src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-
-	<!-- JS theme files
-	============================================ -->
+	<script src="js/libs.js"></script>
+	<script src="js/revolution/js/jquery.themepunch.tools.min.js?ver=5.0"></script>
+	<script src="js/revolution/js/jquery.themepunch.revolution.min.js?ver=5.0"></script>
+	<script src="js/extensions.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/script.js"></script>
 
