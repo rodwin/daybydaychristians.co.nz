@@ -12,6 +12,7 @@ let mix = require('laravel-mix');
  */
 mix.setPublicPath('../../public');
 
+mix.sass('scss/theme.scss', '../../public/css');
 mix.sass('scss/app.scss', '../../public/css');
 mix.copyDirectory('HTML/js', '../../public/js');
 mix.copyDirectory('HTML/plugins/revolution', '../../public/js/revolution');

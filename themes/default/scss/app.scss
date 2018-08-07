@@ -1,10 +1,3 @@
-@import '../HTML/demo-files/demo';
-@import '../HTML/plugins/fancybox/jquery.fancybox';
-@import '../HTML/css/bootstrap-grid.min';
-@import '../HTML/css/owl.carousel';
-@import '../HTML/css/style';
-@import '../HTML/css/responsive';
-
 /* Coolors Exported Palette - coolors.co/006ba6-0496ff-ffbc42-d81159-8f2d56 */
 
 /* HSL */
@@ -20,3 +13,47 @@ $color2: rgba(4, 150, 255, 1);
 $color3: rgba(255, 188, 66, 1);
 $color4: rgba(216, 17, 89, 1);
 $color5: rgba(143, 45, 86, 1);
+
+.color2 {
+    color: $color1;
+}
+
+[class*="btn"]:not(.btn-small).btn-style-5 {
+    background: $color2;
+    color: #fff;
+    border-color: $color2;
+}
+
+[class*="btn"]:not(.btn-small).btn-style-5:hover {
+    background:$color1;
+    border-color: $color1;
+}
+
+.icons-box.style-2 .icons-wrap:after {
+    background: $color2; /* Old browsers */
+    background: -moz-linear-gradient(top, $color1 0%, $color2 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, $color1 0%, $color2 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, $color1 0%, $color2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.event-date .numb, .event-date .month {
+    color: $color1;
+}
+
+.testimonial-holder.style-2 .testimonial blockquote:before {
+    color: $color1;
+}
+
+.call-out.newsletter{
+    background: $color2;
+}
+
+.call-out.newsletter .newsletter .btn {
+    background: $color2;
+    border-color: $color1;
+}
+
+.call-out.newsletter .newsletter .btn:hover {
+    background: $color1;
+    border-color: $color1;
+}

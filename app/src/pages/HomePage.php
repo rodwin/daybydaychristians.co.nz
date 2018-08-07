@@ -1,8 +1,7 @@
 <?php
+namespace DBD\Pages;
 
-use SilverStripe\CMS\Model\SiteTree;
-
-class Page extends SiteTree
+class HomePage extends \Page
 {
     private static $db = [];
 
